@@ -8,7 +8,10 @@ import { LogoapComponent } from './components/logoap/logoap.component';
 import { SocialComponent } from './components/social/social.component';
 import { BanerComponent } from './components/baner/baner.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
-
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HysComponent } from './components/hys/hys.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +19,15 @@ import { AcercadeComponent } from './components/acercade/acercade.component';
     LogoapComponent,
     SocialComponent,
     BanerComponent,
-    AcercadeComponent
+    AcercadeComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    HysComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
