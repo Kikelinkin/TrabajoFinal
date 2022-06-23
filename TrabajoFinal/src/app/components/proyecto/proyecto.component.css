@@ -1,0 +1,15 @@
+.row{
+    background-color:grey;
+    padding: 20px;
+}
+.container{
+    width:auto;
+}
+.parte1 .parte2{ 
+    display: inline-block;
+    text-align: justify;
+}
+.img-targ{
+    box-shadow: 10px 10px 50px red;
+    box-shadow: ejex ejey difumacion color; 
+}
