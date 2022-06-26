@@ -4,7 +4,7 @@
     align-items: center;
 }
 .redes{
-    margin-right: 0.5em;
+    margin: 5px;
 }
 #logoap {
     width:150px;
@@ -15,3 +15,18 @@
 img { 
     width: 50px;
     }
+   
+    /*---para la vista de celular---*/
+    @media (max-width:576px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin:0.2em;
+    }
+}

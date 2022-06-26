@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoapComponent } from './components/logoap/logoap.component';
-import { SocialComponent } from './components/social/social.component';
 import { BanerComponent } from './components/baner/baner.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
@@ -19,7 +18,6 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     HeaderComponent,
     LogoapComponent,
-    SocialComponent,
     BanerComponent,
     AcercadeComponent,
     ExperienciaComponent,
