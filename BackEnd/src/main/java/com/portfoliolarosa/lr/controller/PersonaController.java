@@ -43,4 +43,8 @@ public class PersonaController {
     ipersonaServices.savePersona(persona);
     return persona;
     }
+    @GetMapping("/personas/traer/perfil")
+    public Persona findPersona(){
+        return ipersonaServices.findPersona((long)1);
+    }
 }
