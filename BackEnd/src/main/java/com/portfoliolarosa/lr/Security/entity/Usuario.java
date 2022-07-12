@@ -28,8 +28,9 @@ public class Usuario {
     private String email;
     @NotNull
     private String password;
+    
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable (name = "usuario_rol",joinColums = @JoinColum (name = "usuario_id"),inverseJoinColumns = @JoinColumn(name = rol_id))
+    @JoinTable(name = "usuario_rol", joinColumns = @JoinColumn(name = "usuario_id"),inverseJoinColumns = @JoinColumn(name = "Rol_id"))
     private Set<Rol> roles = new HashSet <>();
     //contructortes
 
