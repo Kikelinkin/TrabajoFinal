@@ -8,7 +8,10 @@ const AUTHORITIES_KEY = 'AuthAuthorities';
 @Injectable({
   providedIn: 'root'
 })
-export class TokenService{ 
+export class TokenService{
+  setUserName(nombreUsuario: string) {
+    throw new Error('Method not implemented.');
+  } 
 roles: Array<string> = [];
   constructor() { }
   public setToken(token: string): void{
